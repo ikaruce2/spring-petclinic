@@ -26,5 +26,10 @@ class WelcomeController {
 	public String welcome() {
 		return "welcome";
 	}
+	
+	@GetMapping("/")
+	public String welcome2() {
+		return "welcome";
+	}
 
 }
